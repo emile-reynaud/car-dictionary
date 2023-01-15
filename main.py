@@ -8,7 +8,7 @@ ctk.set_appearance_mode("System")  # Modes: system (default), light, dark
 ctk.set_default_color_theme("dark-blue")  # Themes: blue (default), dark-blue, green
 
 app = ctk.CTk()  # create CTk window like you do with the Tk window
-app.geometry("400x240")
+app.geometry("600x300")
 
 def button_function():
     print("button pressed")
